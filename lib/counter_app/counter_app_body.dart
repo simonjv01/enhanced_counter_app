@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'widgets/app_title.dart';
+
 class CounterAppBody extends StatelessWidget {
     const CounterAppBody({Key? key, }) : super(key: key);
 
@@ -12,7 +14,7 @@ class CounterAppBody extends StatelessWidget {
             child: Column(
               mainAxisSize: MainAxisSize.min,
               children: [
-                AppTitle(),
+                const AppTitle(),
 
                 CounterButtons(),
 
