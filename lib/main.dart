@@ -19,23 +19,4 @@ class EnhancedCounterApp extends StatelessWidget{
   }
 }
 
-class CounterAppBody extends StatelessWidget{
-  const CounterAppBody({Key? key,}) : super(key: key);
-  @override
-  Widget build(BuildContext context) {
-    return const Scaffold(
-      body: Center(
-        child: Column(
-          mainAxisSize: MainAxisSize.min,
-          children: [
-            // title widget
 
-            // counter widget
-
-            // the history widget
-          ],
-        ),
-      ),
-    );
-  }
-}
