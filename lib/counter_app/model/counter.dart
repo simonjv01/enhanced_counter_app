@@ -27,7 +27,7 @@ class Counter with ChangeNotifier {
     }
 
     /// decreases the counter by 1.
-    void decreases() {
+    void decrease() {
       _counter--;
       notifyListeners();
     }

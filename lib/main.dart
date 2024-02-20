@@ -9,12 +9,18 @@ void main() {
   );
 }
 
-class EnhancedCounterApp extends StatelessWidget{
-  const EnhancedCounterApp({Key? key,}) : super(key: key);
+/// The root widget of the app.
+class EnhancedCounterApp extends StatelessWidget {
+  /// Creates an [EnhancedCounterApp] instance.
+  const EnhancedCounterApp({
+    Key? key,
+  }) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
       home: CounterAppBody(),
+
       // Hiding the debug banner
       debugShowCheckedModeBanner: false,
     );
